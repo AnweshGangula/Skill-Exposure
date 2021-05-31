@@ -7,3 +7,22 @@ td {
 tr {
   border-bottom: 1px solid gray;
 }
+
+/* style from: https://stackoverflow.com/a/40035407/6908282 */
+table {
+  border-collapse: collapse;
+  border: 1px solid darkgray;
+}
+table td {
+  border: 1px dotted black;
+  padding: 5px;
+}
+table td:first-child {
+  border-left: 0px solid black;
+}
+table th,
+table thead {
+  border: 2px solid darkgray;
+  padding: 5px;
+  background-color: lightgray;
+}
