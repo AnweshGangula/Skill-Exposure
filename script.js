@@ -124,9 +124,9 @@ function filterData(event, element, columnName) {
             if (td) {
                 txtValue = td.textContent || td.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    rows[i].style.display = "";
+                    rows[i].style.visibility = "";
                 } else {
-                    rows[i].style.display = "none";
+                    rows[i].style.visibility = "collapse";
                 }
             }
         }
