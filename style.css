@@ -1,0 +1,9 @@
+th,
+td {
+  padding: 10px 20px;
+  /* border: 1px solid; */
+}
+
+tr {
+  border-bottom: 1px solid gray;
+}
